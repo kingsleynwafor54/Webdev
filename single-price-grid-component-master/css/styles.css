@@ -1,0 +1,130 @@
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Cyan: 
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    .first{
+        padding-left: 5%;
+        padding-top: 5%;
+     Font-size: 30px;
+     color: rgb(23, 178, 206);
+     margin: auto;
+    
+     
+     /* border:2px solid#B2BEB0;; */
+    }
+    .par{
+        color: greenyellow;
+        font-size: 80%;
+    }
+    .par2{
+       
+        font-size: 50%;
+        color:rgb(000, 000, 000) ;
+        
+    }
+    .flex-container{
+background-color:lightgrey;
+color: white;
+text-align: center;
+font-size: 16px;
+display: flex;
+flex-flow: row; 
+border-radius: 15px;
+
+}
+.flex-container1{
+    text-align: center;
+    background-color: rgb(23, 178, 206);
+    width: 100%;
+    border-bottom-left-radius:  15px;
+}
+.flex-container2{
+    text-align: left;
+    width: 100%;
+    background-color: hsl(187, 60%, 52%);
+    border-bottom-right-radius: 5%;
+    
+}
+.subflex{
+    text-align: center;
+    background-color: rgb(23, 178, 206);
+    width: 100%;
+    padding-right: 5%;
+ 
+}
+.subflex1{
+    text-align: left;
+    background-color: hsl(187, 60%, 52%);;
+    padding-left: 20%;
+    
+    
+}
+button{
+    
+    background-color: greenyellow ;
+    color: white;
+    width: 60%;
+    border-radius: 10px;
+    
+   
+}
+.overall{
+    /* padding-top:  30%;
+    padding-bottom: 3%; */
+   padding-left: 20%;
+   padding-right:20%;
+   padding-top: 5%;
+   padding-bottom:2%;
+    border-color: rgb(000, 000, 000);
+    border:20%;
+    margin: auto; 
+    background-color:light gray;
+    
+ 
+}
+
+span{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+.initial{
+    background-color: whitesmoke;  
+
+}
+.attribution { 
+    font-size: 11px ;text-align:center;
+ 
+ }
