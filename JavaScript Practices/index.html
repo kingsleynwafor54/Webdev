@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+ <script src="index.js"></script>
+  <script>    document.write('here in the head');  
+  document.write( '<meta charset="UTF-8">' );
+  </script>
+   
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-  <h1>Hello World</h1>
- <scriptsrc="index.js"></script>
+  <script>
+
+    document.write("in the body");
+    document.write(' <h1>Hello World</h1>');
+    var hourOfDay=19;
+    var greeting='';
+    if(hourOfDay>0&&hourOfDay<12){
+      greeting="Good Morning";
+    }
+    else if(hourOfDay>=12 && hourOfDay<18){
+      greeting="Good Afternoon";
+    }
+    else
+    {
+      greeting="Good Evening";
+    }
+
+    var artType="SC";
+    var output="";
+    switch(artType){
+      case "PT":
+      output="Painting";
+      break;
+      case "SC":
+    output="Sculpture";
+    break;
+    default:
+      output="Other";
+    }
+   
+   
+    
+    // while(counter<=number){
+    //   console.log(counter);
+    //   counter++;
+    // }
+  
+//     let sum = 0;
+// let number = parseInt(prompt('Enter a number: '));
+// while(number >= 0) {
+//     sum += number;
+//     number = parseInt(prompt('Enter a number: '));
+// }
+// finding the sum of n natural numbers
+// var n=5;
+// for(let counter=1;counter<=n;counter++){
+//   document.write("<br>","I love JavaScript");
+// }
+// let displayNumber=parseInt(prompt("Suming nth number of natural numbers"))
+// let sum=0;
+// for(let counter=1;counter<=displayNumber;counter++){
+//   sum+=counter;
+// }
+// document.write(sum);
+
+
+
+
+
+
+// console.log(`The sum is ${sum}.`);
+   
+
+    // document.write(output,"<br>" );
+   
+    // document.write(greeting);
+    
+    // alert(greeting);
+    console.log(greeting)
+  </script>
+ <!-- <scriptsrc="index.js"></script> -->
 </body>
 </html>
